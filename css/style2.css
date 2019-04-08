@@ -1,0 +1,32 @@
+body,html{
+    cursor: pointer;
+    font-family:"B yekan";
+}
+.well{
+    background:#fff; 
+    width: 50%;
+    margin: 30px auto;
+}
+
+
+.table{
+    direction:rtl;
+    text-align: center;
+}
+.panel{
+   width:50%;
+    height: 50%;
+    margin: 10% auto;
+    border: #300026 2px groove;
+    text-align: right;
+}
+
+
+.panel-heading{
+    background: #6d0b49;
+    color: white;
+}
+#alert{
+    width: 50%;
+    margin: auto auto;
+}

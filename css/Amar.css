@@ -1,0 +1,138 @@
+    @keyframes anim1{
+                0%{width:10%;}
+                100%{width:95%;}
+                
+            }  
+@keyframes anim2{
+                0%{width:10%;}
+                100%{width:80%;}
+                
+            }
+@keyframes anim3{
+                0%{width:10%;}
+                100%{width:80%;}
+                
+            }
+@keyframes anim4{
+                0%{width:10%;}
+                100%{width:70%;}
+                
+            }
+@keyframes anim5{
+                0%{width:10%;}
+                100%{width:50%;}
+                
+            }
+
+#progress2{
+             background: brown;
+                animation-name:anim2;
+              animation-duration: 1.5s;
+                animation-timing-function: linear;
+                animation-delay: 1.5s;
+                animation-fill-mode: forwards; 
+}
+#progress{
+             background: brown;
+                animation-name:anim1;
+              animation-duration: 1.5s;
+                animation-timing-function: linear;
+                animation-delay: 1.5s;
+                animation-fill-mode: forwards; 
+}
+#progress3{
+             background: brown;
+                animation-name:anim3;
+              animation-duration: 1.5s;
+                animation-timing-function: linear;
+                animation-delay: 1.5s;
+                animation-fill-mode: forwards; 
+}
+#progress4{
+             background: brown;
+                animation-name:anim4;
+              animation-duration: 1.5s;
+                animation-timing-function: linear;
+                animation-delay: 1.5s;
+                animation-fill-mode: forwards; 
+}
+#progress5{
+             background: brown;
+                animation-name:anim5;
+              animation-duration: 1.5s;
+                animation-timing-function: linear;
+                animation-delay: 1.5s;
+                animation-fill-mode: forwards; 
+}
+
+body,html{
+    cursor: pointer;
+    font-family:"B yekan";
+}
+
+canvas{
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+		}
+canvas{
+    max-width:40%;
+    max-height:40%;
+    margin: 8% auto; 
+}
+
+
+#alert{
+    width: 50%;
+    margin: auto auto;
+}
+
+
+
+#clearfix{
+     width:100%;
+     direction: rtl;
+    margin:auto auto;
+    margin-left: 5px;
+}
+
+		.chartjs-tooltip-key {
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+			margin-right: 10px;
+		}
+
+
+#canvas-holder1{
+    width: 100%;
+    height: 100%;
+}
+	
+.panel{
+   width:50%;
+    height: 50%;
+    margin: 10% auto;
+    border: #300026 2px groove;
+}
+
+
+.panel-heading{
+    background: #6d0b49;
+    color: white;
+}
+
+
+.table{
+    direction:rtl;
+    text-align: center;
+}
+
+blockquote{
+    background: #440036; 
+    color: black; 
+    margin: auto auto; 
+    margin-left: 2px;
+    width: 80%;
+    
+}

@@ -1,0 +1,32 @@
+body,html{
+    cursor: pointer;
+    font-family:"B yekan";
+}
+.panel{
+   width:50%;
+    height: 50%;
+    margin: 10% auto;
+    border: #300026 2px groove;
+    text-align: right;
+}
+
+
+.panel-heading{
+    background: #6d0b49;
+    color: white;
+}
+
+
+#alert{
+    width: 50%;
+    margin: auto auto;
+}
+select{
+width: 10%;
+margin: -5px;
+}
+
+.nav-tabs li{
+direction: rtl;
+right: -35%;
+}
